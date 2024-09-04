@@ -1,11 +1,36 @@
 # Data Project Template
 
-<a target="_blank" href="https://datalumina.com/">
-    <img src="https://img.shields.io/badge/Datalumina-Project%20Template-2856f7" alt="Datalumina Project" />
-</a>
+<h1 align="center">
+A Template project for Data Science & AI Projects
+</h1>
 
 ## Cookiecutter Data Science
 This project template is a simplified version of the [Cookiecutter Data Science](https://cookiecutter-data-science.drivendata.org) template, created to suit the needs of Datalumina and made available as a GitHub template.
+
+## Project Setup
+
+### 1. Poetry Installation
+This project uses Poetry for dependency management. If you haven't installed Poetry yet, you can do so by following the [official installation guide](https://python-poetry.org/docs/#installation).
+
+### 2. Setting up the Project
+Clone the repository and navigate to the project directory:
+
+> Make sure teh hst machine has `python = ">=3.10,<3.12"`
+
+```bash
+poetry install
+poetry shell
+```
+
+### 3. Run the Jupyter Lab server🚀
+
+After Environment is activated, run below command for Jupyter lab Server
+
+```bash
+
+Jupyter lab
+
+```
 
 ## Adjusting .gitignore
 

@@ -9,17 +9,19 @@ This project template is a simplified version of the [Cookiecutter Data Science]
 
 ## Project Setup
 
-### 1. Poetry Installation
-This project uses Poetry for dependency management. If you haven't installed Poetry yet, you can do so by following the [official installation guide](https://python-poetry.org/docs/#installation).
+### 1. UV Installation
+This project uses uv for dependency management. If you haven't installed uv yet, you can do so by following the [official installation guide](https://docs.astral.sh/uv/getting-started/installation/).
 
 ### 2. Setting up the Project
 Clone the repository and navigate to the project directory:
 
-> Make sure teh hst machine has `python = ">=3.10,<3.12"`
+> Make sure the host machine has `python = ">=3.10,<3.13"`
 
 ```bash
-poetry install
-poetry shell
+uv venv my-env
+source .my-env/bin/activate
+uv pip install -r pyproject.toml
+
 ```
 
 ### 3. Run the Jupyter Lab server🚀
